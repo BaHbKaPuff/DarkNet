@@ -1,0 +1,22 @@
+.fon_img {
+  /* border: 1px solid red; */
+  padding: 30px 20px 0 20px;
+  min-width: 500px;
+  background-image: url(../../../img/fon7.jpg);
+  background-repeat: round;
+}
+
+.main_header {
+  display: flex;
+  justify-content: space-between;
+  grid-area: mh;
+}
+/* .main_footer {
+   border: 1px solid red; 
+} */
+.avatar {
+  width: 200px;
+}
+.job img {
+  width: 50px;
+}

@@ -1,0 +1,39 @@
+.myPosts {
+  grid-area: mp;
+  background-color: darkgray;
+  border: 1px solid transparent;
+  border-radius: 5px 5px 0 0;
+  max-width: 325px;
+  margin: 100px auto 0 auto;
+}
+.textareaPost {
+  background-color: black;
+  color: limegreen;
+  font-size: 16px;
+  margin-top: -1px;
+  border: none;
+}
+
+.commandline {
+  background-color: darkgray;
+  color: black;
+  text-align: center;
+}
+
+.myPosts_button {
+  margin-top: -2px;
+  float: right;
+  height: 78px;
+  background-color: black;
+  border: 1px solid darkgray;
+  text-align: center;
+  color: limegreen;
+  cursor: pointer;
+}
+
+textarea[name="post"]::-webkit-input-placeholder {
+  color: limegreen;
+} 
+textarea[name="post"]::-moz-placeholder {
+  color: limegreen;
+}

@@ -1,0 +1,21 @@
+.post {
+  grid-area: p;
+  margin-top: 15px;
+  padding: 10px;
+  border: 1px solid rgb(17, 48, 126);
+  max-width: 60vw;
+  overflow: hidden;
+}
+.post p {
+   text-align: justify;
+}
+.postMenu {
+  color: rgb(17, 48, 126);
+  float: right;
+}
+
+@media screen and (max-width: 768px){
+  .post {
+    max-width: 71vw;
+  }
+}

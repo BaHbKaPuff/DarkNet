@@ -1,0 +1,30 @@
+.nav {
+  grid-area: n;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 5px 0 5px 0;
+  border-top: 1px solid #0f5696;
+}
+.nav a {
+  text-decoration: none;
+  cursor: pointer;
+  padding: 20px 5px;
+  flex-grow: 1;
+  text-align: center;
+}
+.nav a:hover { 
+  background:  #0f5696;
+  color: #00031e;
+}
+a.active {
+  background:  #0f5696;
+  color: #00031e;
+}
+@media screen and (max-width: 992px){
+  .nav{
+    max-height: 62vh;
+    max-width: 10vw;
+    /* margin: 5px 10px 5px 0; */
+  }
+}

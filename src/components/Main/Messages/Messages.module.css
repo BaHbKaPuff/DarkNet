@@ -1,0 +1,23 @@
+.messages {
+  display: flex;
+  justify-content: center;
+}
+#spanID {
+  color: green;
+}
+.textareaMessage {
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  margin-top: -1px;
+  border: none;
+}
+.send_button {
+  color:green;
+}
+textarea[name="message"]::-webkit-input-placeholder {
+  color: gray;
+} 
+textarea[name="message"]::-moz-placeholder {
+  color: gray;
+}

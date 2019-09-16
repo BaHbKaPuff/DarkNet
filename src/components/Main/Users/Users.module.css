@@ -1,0 +1,11 @@
+.userPhoto{
+  width: 100px;
+}
+button{
+  color: blue;
+  cursor: pointer;
+}
+.selectedPage{
+  font-weight: bold;
+  color: mediumspringgreen;
+}
