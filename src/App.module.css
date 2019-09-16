@@ -1,0 +1,32 @@
+.wrapper {
+  max-width: 1024px;
+  min-height: 100vh;
+  background-color: #00031e;
+  padding: 20px 0;
+  display: grid;
+  grid-template-rows: auto auto 1fr auto;
+  grid-template-columns: 3fr 1fr;
+  grid-template-areas: "h h"
+                       "n a"
+                       "m a"
+                       "f f"
+}
+@media screen and (max-width: 992px){
+  .wrapper {
+    grid-template-rows:  auto 1fr auto;
+    grid-template-columns: auto 3fr 1fr;
+    grid-template-areas: "h h h"
+                         "n m a"
+                         "f f f"
+  }
+}
+@media screen and (max-width: 768px){
+  .wrapper {
+    grid-template-rows:  auto auto 1fr auto;
+    grid-template-columns: auto auto;
+    grid-template-areas: "h h h"
+                         "n m m"
+                         "n a a"
+                         "f f f"
+  }
+}
